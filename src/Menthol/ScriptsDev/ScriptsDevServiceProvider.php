@@ -18,7 +18,7 @@ class ScriptsDevServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('menthol/scripts-dev', 'scripts-dev', __DIR__);
+		$this->package('menthol/scripts-dev');
 	}
 
 	/**
