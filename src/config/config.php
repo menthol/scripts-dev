@@ -13,6 +13,6 @@ return array(
     |
     */
 
-    'dev'  => false,
+    'dev'  => App::environment() != 'production',
 
 );
